@@ -1,0 +1,31 @@
+.link {
+  color: #51ddfc;
+  text-decoration: none;
+}
+
+.headline--primary {
+  color: #58e0c1;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.headline--secondary {
+  color: #58e0c1;
+  font-family: "Helvetica Neue-Light", sans-serif;
+  font-weight: lighter;
+}
+
+.btn--default {
+  background-color: #51ddfc;
+}
+
+.btn--success {
+  background-color: #58e0c1;
+}
+
+p {
+  color: gray;
+  font-family: "Helvetica Neue-Light", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
