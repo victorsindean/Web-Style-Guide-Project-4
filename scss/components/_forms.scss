@@ -1,9 +1,16 @@
 .form {
-
+  text-align: left;
 }
 .form__label--hidden {
-
+  display: none;
 }
 .form__input {
-  
+  border: none;
+  border-bottom: 7px solid $color-primary;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  font-family: $font-primary;
+  &:focus {
+    outline: 2px solid $color-primary;
+  }
 }

@@ -1,18 +1,25 @@
 .btn--default {
   background-color: $color-secondary;
+  @include buttons;
 }
 .btn--success {
   background-color: $color-primary;
+  @include buttons;
 }
 .btn--error {
-
+  background-color: $color-red;
+  @include buttons;
 }
 .btn--warning {
-
+  background-color: $color-orange;
+  @include buttons;
 }
 .btn--info {
-
+  background-color: $color-purple;
+  @include buttons;
 }
 .theme__colors {
-
+  color: $color-white;
+  text-transform: uppercase;
+  @include buttons;
 }
